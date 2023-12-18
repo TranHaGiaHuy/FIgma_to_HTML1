@@ -1,0 +1,41 @@
+input:checked ~ img {
+  display: none;
+}
+
+img {
+  width: 100px;
+}
+
+.demo3 > p {
+  background-color: aqua;
+  color: blue;
+}
+
+.demo ~ div p:first-child {
+  color: red;
+  background-color: violet;
+}
+
+input[type="text"] {
+  color: red;
+}
+
+.demo .demo3 {
+  font-size: 40px;
+}
+
+p:nth-child(2) {
+  background-color: yellow;
+}
+
+p:first-of-type {
+  font-size: 50px;
+}
+
+.demo2 :not(p:nth-child(4)) {
+  color: green;
+}
+
+h2 {
+  background-color: red;
+}

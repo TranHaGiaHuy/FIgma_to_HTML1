@@ -1,0 +1,22 @@
+.demo {
+  width: 500px;
+  height: 500px;
+  background-color: beige;
+  max-width: 600px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.demo1 {
+  width: 10rem;
+  height: 10rem;
+  background-color: red;
+}
+
+.demo2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
